@@ -5,7 +5,7 @@ class Plateau {
         this.dessinePlateau();
         this.img= new Image();
         this.img.onload = () => {
-            this.contexte2D.drawImage(this.img, 0, 0,1366,768);
+            this.contexte2D.drawImage(this.img, 0, 0,this.l,this.h);
 
         }
         this.img.src= "img/CastleExample_3.png";

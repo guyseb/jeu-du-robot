@@ -5,5 +5,4 @@ document.addEventListener("keydown", function(e){
 console.log();
         var plateau = new Plateau(window.innerWidth, window.innerHeight);
          plateau.dessinePlateau();
-
 });
